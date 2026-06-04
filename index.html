@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Data Scientist & Econometrician | Portfolio</title>
+<style>
+:root {
+  --bg: #fafaf9;
+  --card: #ffffff;
+  --text: #1c1917;
+  --muted: #78716c;
+  --accent: #2563eb;
+  --accent-light: #dbeafe;
+  --border: #e7e5e4;
+  --tag-bg: #f5f5f4;
+}
+@media (prefers-color-scheme: dark) {
+:root {
+  --bg: #0c0a09;
+  --card: #1c1917;
+  --text: #e7e5e4;
+  --muted: #a8a29e;
+  --accent: #60a5fa;
+  --accent-light: #1e3a5f;
+  --border: #292524;
+  --tag-bg: #1c1917;
+}
+}
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;background:var(--bg);color:var(--text);line-height:1.6}
+.container{max-width:720px;margin:0 auto;padding:3rem 1.5rem}
+
+/* Hero */
+.hero{margin-bottom:3rem}
+.hero h1{font-size:2.2rem;font-weight:700;letter-spacing:-0.02em}
+.hero .tagline{font-size:1.1rem;color:var(--muted);margin-top:.5rem}
+.hero .links{margin-top:1rem;display:flex;gap:1rem;flex-wrap:wrap}
+.hero .links a{color:var(--accent);text-decoration:none;font-weight:500;font-size:.9rem}
+.hero .links a:hover{text-decoration:underline}
+
+/* Section */
+.section{margin-bottom:2.5rem}
+.section h2{font-size:1.2rem;font-weight:600;margin-bottom:1rem;letter-spacing:-0.01em;padding-bottom:.5rem;border-bottom:2px solid var(--border)}
+
+/* Cards */
+.card{background:var(--card);border:1px solid var(--border);border-radius:.75rem;padding:1.5rem;margin-bottom:1rem}
+.card h3{font-size:1rem;font-weight:600;margin-bottom:.25rem}
+.card .meta{font-size:.8rem;color:var(--muted);margin-bottom:.75rem}
+.card p{font-size:.9rem;color:var(--text);margin-bottom:.75rem}
+.card ul{font-size:.85rem;padding-left:1.2rem;color:var(--muted)}
+.card ul li{margin-bottom:.25rem}
+.card ul li::marker{color:var(--accent)}
+
+/* Tags */
+.tags{display:flex;gap:.4rem;flex-wrap:wrap;margin-top:.75rem}
+.tag{font-size:.7rem;padding:.2rem .6rem;border-radius:1rem;background:var(--tag-bg);color:var(--muted);border:1px solid var(--border);white-space:nowrap}
+
+/* Skills grid */
+.skills{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:1rem}
+.skill-group h3{font-size:.85rem;font-weight:600;margin-bottom:.4rem}
+.skill-group p{font-size:.8rem;color:var(--muted)}
+
+/* Footer */
+.footer{text-align:center;padding:2rem 0;color:var(--muted);font-size:.8rem}
+
+/* CTA */
+.cta{background:var(--accent);color:#fff;padding:.75rem 1.5rem;border-radius:.5rem;text-decoration:none;font-weight:600;font-size:.9rem;display:inline-block;margin-top:.5rem;transition:opacity .2s}
+.cta:hover{opacity:.9}
+</style>
+</head>
+<body>
+<div class="container">
+
+<!-- Hero -->
+<div class="hero">
+  <h1>Zhaoy</h1>
+  <p class="tagline">Data Scientist &amp; Econometrician — turning complex data into clear, actionable results.</p>
+  <div class="links">
+    <a href="https://github.com/USERNAME">GitHub</a>
+    <a href="https://www.upwork.com/freelancers/~UPWORK_ID">Upwork</a>
+    <a href="mailto:EMAIL">Email</a>
+  </div>
+  <a class="cta" href="https://www.upwork.com/freelancers/~UPWORK_ID">Hire me on Upwork →</a>
+</div>
+
+<!-- What I Do -->
+<div class="section">
+  <h2>What I Do</h2>
+  <div class="skills">
+    <div class="skill-group">
+      <h3>📊 Econometric Analysis</h3>
+      <p>DID, IV/2SLS, Spatial Panel, Synthetic Control. Publication-ready output with Stata &amp; Python.</p>
+    </div>
+    <div class="skill-group">
+      <h3>🐍 Data Engineering</h3>
+      <p>Web scraping, ETL pipelines, API integration, multi-source data merging. Clean, documented code.</p>
+    </div>
+    <div class="skill-group">
+      <h3>🌐 Full-Stack Dev</h3>
+      <p>PWA, React, Flask/FastAPI backends. End-to-end from database to deployment.</p>
+    </div>
+    <div class="skill-group">
+      <h3>🗺️ Spatial Analysis</h3>
+      <p>Geospatial data processing, spatial weights, Conley HAC, climate data extraction.</p>
+    </div>
+  </div>
+</div>
+
+<!-- Projects -->
+<div class="section">
+  <h2>Selected Projects</h2>
+
+  <div class="card">
+    <h3>Climate-Econometric Causal Analysis Pipeline</h3>
+    <p class="meta">Python · Stata · Spatial Econometrics</p>
+    <p>Causal effect of agricultural insurance on carbon emissions across 293 Chinese cities.</p>
+    <ul>
+      <li>Constructed climate-based Bartik instruments from CMFD/CRU gridded data</li>
+      <li>Multi-period DID with Sun &amp; Abraham estimators, event studies, placebo tests</li>
+      <li>Spatial HAC standard errors (Conley) and spatial panel models (SAR, SDM)</li>
+      <li>100% reproducible pipeline: raw data → estimation → publication tables</li>
+    </ul>
+    <div class="tags">
+      <span class="tag">DID</span><span class="tag">IV/2SLS</span><span class="tag">Bartik</span><span class="tag">Spatial HAC</span><span class="tag">Stata</span><span class="tag">Python</span>
+    </div>
+  </div>
+
+  <div class="card">
+    <h3>Multi-Source Climate Data Pipeline</h3>
+    <p class="meta">Python · NetCDF · API Integration</p>
+    <p>Automated extraction and harmonization of climate data from heterogeneous sources.</p>
+    <ul>
+      <li>Parsed CRU TS4.07 global NetCDF/gzip data for China region</li>
+      <li>Queried Open-Meteo API for 293 cities with rate limiting and caching</li>
+      <li>Merged into unified analysis-ready panel with quality checks</li>
+    </ul>
+    <div class="tags">
+      <span class="tag">Python</span><span class="tag">NetCDF</span><span class="tag">API</span><span class="tag">Geospatial</span><span class="tag">ETL</span>
+    </div>
+  </div>
+
+  <div class="card">
+    <h3>晚安信笺 (Goodnight Letter) — PWA</h3>
+    <p class="meta">JavaScript · Canvas · PWA</p>
+    <p>A Progressive Web App for writing and sharing beautiful goodnight letters.</p>
+    <ul>
+      <li>Canvas starfield with twinkling stars and shooting star animation</li>
+      <li>Full offline support via Service Worker + Cache API</li>
+      <li>Friend system with serverless sharing (URL-encoded data)</li>
+      <li>Installable on mobile home screen with custom install prompt</li>
+    </ul>
+    <div class="tags">
+      <span class="tag">PWA</span><span class="tag">Canvas</span><span class="tag">JavaScript</span><span class="tag">Service Worker</span>
+    </div>
+  </div>
+</div>
+
+<!-- Tech Stack -->
+<div class="section">
+  <h2>Tech Stack</h2>
+  <div class="tags">
+    <span class="tag">Python</span><span class="tag">Stata</span><span class="tag">R</span><span class="tag">pandas</span><span class="tag">geopandas</span><span class="tag">numpy</span><span class="tag">scipy</span><span class="tag">statsmodels</span>
+    <span class="tag">JavaScript</span><span class="tag">React</span><span class="tag">Node.js</span><span class="tag">HTML/CSS</span><span class="tag">Flask</span><span class="tag">FastAPI</span>
+    <span class="tag">PostgreSQL</span><span class="tag">SQLite</span><span class="tag">MongoDB</span><span class="tag">Git</span><span class="tag">Docker</span>
+  </div>
+</div>
+
+<div class="footer">
+  &copy; 2026 &mdash; Built for getting things done.
+</div>
+
+</div>
+</body>
+</html>
